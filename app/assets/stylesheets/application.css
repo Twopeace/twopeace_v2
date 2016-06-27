@@ -1,0 +1,547 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ *{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hidden{
+  display: none;
+}
+
+.grid-container *{
+  width: 100%;
+  max-width: 1280px;
+  box-sizing: border-box;
+}
+
+.row:before,
+.row:after{
+  content:"";
+    display: table ;
+  clear: both;  
+}
+
+[class*="col-"]{
+  float: left;
+  min-height: 1px;
+  width: 50%;
+  padding: 12px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.col_1{
+  width: 100%;
+}
+
+.col_2{
+  width: 50%;
+}
+
+.col_3{
+  width: 32%;
+}
+
+.col_4{
+  width: 23%;
+}
+
+a:link {
+  text-decoration: none !important;
+  font-size: 15px;
+  color: #7C7877;
+}
+
+a:visited {
+  text-decoration: none !important;
+  font-size: 20px;
+  color: #7C7877;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #F16B6F !important;
+}
+
+a:active {
+  text-decoration: none !important;
+}
+
+.nav{
+  height: 112px;
+}
+
+.title{
+  font-size: 130% !important;
+  padding-top: 15px !important;
+}
+
+.mobile_links{
+  font-size: 140%;
+  padding-top: 10px;
+}
+
+.nav_left{
+  float: left;
+  width: 20%;
+  padding: 15px 0 15px 0px;
+}
+
+.nav_right{
+  float: right;
+  width: 80%;
+  margin: 2.5% 0 2.5% 0;
+  padding: 15px 0 15px 0;
+}
+
+#twopeacelogo{
+  height: 80px;
+  width: 210px;
+}
+
+.header-links{
+  text-align: right;
+ }
+
+.header-links a{
+  margin: 0 auto;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 120%;
+ }
+
+.mobile_nav{
+  display: none;
+  margin: 2% 0 2% 0;
+}
+
+.footer_nav{
+  height: 40px; 
+  background-color: #d6ecfa;
+}
+
+ .footer-links{
+  text-align: center;
+  padding-top: 10px;
+ }
+
+.footer-links a{
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 110%;
+ }
+
+ .home_div{
+  max-height: 550px;
+  background-color: #d6ecfa;
+  text-align: center;
+  padding-bottom: 11%
+ }
+
+ .summary_div{
+  max-height: 1700px;
+  text-align: center;
+ }
+
+ .sub_summary{
+  float: left;
+  margin: 7% 1% 10% 1%;
+ }
+
+ .sub_summary_under{
+  width: 180px;
+  margin: 0 auto;
+ }
+
+ .headers{
+  background-color: #d6ecfa;
+  max-height: 500px;
+  width: 100%;
+ }
+
+ .who_we_are{
+  max-height: 500px;
+  text-align: center;
+ }
+
+ .what_we_do{
+  max-height: 1700px;
+  text-align: center;
+  background-color: #d6ecfa;
+ }
+
+ .what_we_do_inner{
+  float: left;
+  margin: 7% .5% 7% .5%;
+ }
+
+ .main_title{
+  font-size: 450%;
+  color: #F16B6F;
+  padding: 15% 0 2% 0;
+ }
+
+ .main_slogan{
+  font-size: 140%; 
+  color: #F16B6F;
+  padding: 0 0 5% 0;
+ }
+
+ .home_div a{
+  color: #7C7877;
+ }
+
+ .home_btns{
+  width: 20%;
+  height: 30px;
+  font-size: 140%;
+  margin: 0 2% 17% 0;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid black;
+  border-radius: 5px 5px 5px 5px;
+  background-color: white;
+ }
+
+ .summary_title{
+ font-size: 150%;
+ color: #F16B6F;
+ }
+
+  .sub_summary h1{
+  padding: 0;
+ }
+
+  .fa{
+  color: #7C7877;
+  }
+
+ .summary_text{
+  color: #7C7877;
+  font-size: 110%;
+  padding: 25px 0 25px 0;
+ }
+ .sub_summary a {
+  color: #7C7877;
+ }
+
+ .who_title{
+    font-size: 
+ }
+
+
+.who_title{
+    font-size: 
+ }
+
+#what_title{
+  margin: 5% 0 0 0;
+  color: #F16B6F;
+}
+
+.what_titles{
+  color: #F16B6F;
+  font-size: 150%;
+  padding: 5px 0 5px 0;
+}
+
+.what_under{
+  width: 50px;
+  margin: 0 auto;
+ }
+
+.what_slogan{
+  margin: 1% 0 0 0;
+  padding: 0 5px 0 5px;
+  color: #7C7877;
+}
+
+.what_body{
+  color: #7C7877;
+  margin: 0 auto;
+  padding: 25px 5px 0 5px;
+  font-size: 110%;
+  max-width: 530px;
+}
+
+ #crew_title{
+  text-align: center;
+  padding: 17% 0 17% 0;
+  font-size: 300%;
+  color: #F16B6F;
+ }
+
+ .text_space{
+  text-align: center;
+ }
+
+ .work_space{
+  text-align: center;
+  height: 400px;
+ }
+
+ #team_slogan{
+  font-size: 180%;
+  padding: 25px 5px 25px 5px;
+ }
+
+  #work_slogan{
+  font-size: 180%;
+  padding: 120px 5px 15px 5px;
+ }
+
+.underline{
+  width: 80px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+ .para{
+  font-size: 120%;
+  padding: 15px 5px 15px 5px;
+ }
+
+ .work_para{
+  font-size: 120%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px 5px 15px 5px;
+
+ }
+
+ .prof_pic{
+  max-height: 400px;
+  margin: 1% 0 1% 0;
+  width: 400px;
+ }
+
+ .info{
+  font-size: 110%;
+  margin-bottom: 15px;
+ }
+
+ .contact_header{
+  font-size: 5em;
+  text-align: center;
+  padding: 20% 0  20% 0;
+  color: white;
+}
+
+.form_div{
+  height: 200px;
+  margin: 5% 0 10% 0;
+}
+
+.input_box{
+  width: 30%;
+  height: 30px;
+  font-size: 24px;
+  display: block;
+  margin: 0 auto;
+}
+
+.text_area{
+  width: 45%;
+  height: 55px;
+  font-size: 24px;
+  margin: 0 auto;
+  display: block;
+}
+
+.submit_btn{
+  width: 10%;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+  font-size: 120%;
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 5px 5px 0px grey;
+}
+
+ /*Media Queries*/
+@media all and (max-width:1150px){
+  .col_4{
+    width: 47% !important;
+  }
+
+  .col_3{
+    width: 100% !important;
+  }
+
+  .what_we_do_inner{
+    float: left;
+    margin: 3% .5% 3% .5%;
+ }
+
+  .summary_text{
+    width: 65%;
+    margin: 0 auto;
+ }
+}
+
+@media all and (max-width:1020px){
+.main_title{
+  font-size: 350% !important;
+  padding: 15% 0 2% 0 !important;
+ }
+
+ .main_slogan{
+  font-size: 120% !important; 
+  padding: 0 0 5% 0 !important;
+ }
+}
+
+ @media all and (max-width:980px){
+
+.header-links{
+  padding-top: 10px !important;
+ }
+
+.header-links a{
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+ }
+
+ .footer-links{
+  padding-top: 10px !important;
+ }
+
+.footer-links a{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 100% !important;
+ }
+}
+
+
+@media all and (max-width:850px){
+.nav{
+  display: none !important;
+}
+
+nav a{
+  font-size: 80% !important;
+}
+
+.mobile_nav{
+  display: block !important;
+  text-align: center !important;
+}
+
+.footer-links a{
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  font-size: 100% !important;
+ }
+
+ .main_title{
+  font-size: 250% !important;
+ }
+
+ .main_slogan{
+  font-size: 100% !important; 
+ }
+
+ .home_btns{
+  height: 30px !important;
+  font-size: 80% !important;
+  margin: 0 2% 17% 0 !important;
+  padding: 5px 5px 5px 5px !important;
+ }
+
+ .col_4{
+    width: 100% !important;
+  }
+
+  #crew_title{
+  font-size: 250% !important;
+ }
+
+ .prof_pic{
+  margin: 1% 0 1% 0 !important;
+  height: 350px;
+  width: 350px;
+ }
+
+ .form_div{
+  height: 250px !important;
+  margin: 10% 0 10% 0 !important;
+}
+
+.input_box{
+  font-size: 18px !important;
+}
+
+.text_area{
+  font-size: 18px !important;
+}
+
+.submit_btn{
+  width: 20% !important;
+  height: 30px !important;
+  font-size: 16px !important
+}
+}
+
+@media all and (max-width:580px){
+  .main_title{
+  font-size: 210% !important;
+ }
+
+ .main_slogan{
+  font-size: 100% !important; 
+ }
+
+ .home_btns{
+  height: 30px !important;
+  font-size: 70% !important;
+  margin: 0 2% 17% 0 !important;
+  padding: 5px 5px 5px 5px !important;
+ }
+}
+
+@media all and (max-width:500px){
+.form_div{
+  margin: 23% 0 8% 0 !important;
+  height: 280px !important; 
+}
+
+.input_box{
+  font-size: 15px !important;
+}
+
+.text_area{
+  font-size: 15px !important;
+}
+
+.what_titles{
+  font-size: 120% !important;
+}
+
+.what_body{
+  font-size: 90% !important;
+  max-width: 300px !important;
+}
+
+.submit_btn{
+  width: 20% !important;
+  font-size: 14px !important;
+}
+}
