@@ -152,7 +152,7 @@ a:active {
   max-height: 550px;
   background-color: #d6ecfa;
   text-align: center;
-  padding-bottom: 11%
+  padding-bottom: 11%;
  }
 
  .summary_div{
@@ -280,6 +280,51 @@ a:active {
   max-width: 530px;
 }
 
+.advertise{
+  height: 50px;
+  background-color: #07ABE6;
+  display: inline-block;
+}
+
+.advertext{
+  float: left;
+  width: 70%;
+  font-size: 140%;
+  color: white;
+  padding: 10px 0 10px 20px;
+}
+
+.advertise_btn{
+  float: right;
+  text-align: center;
+  width: 15%;
+  height: 30px;
+  font-size: 90%;
+  padding: 5px 5px 5px 5px;
+  margin: 10px 65px 0 10px;
+  border: 1px solid black;
+  border-radius: 5px 5px 5px 5px;
+  background-color: white;
+}
+
+.our_mission{
+  max-height: 500px;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+#our_mission_title{
+  margin: 5% 0 .5% 0;
+  color: #F16B6F;
+}
+
+#our_mission_body{
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 3% 2% 2% 2%;
+  color: #7C7877;
+}
+
  #crew_title{
   text-align: center;
   padding: 17% 0 17% 0;
@@ -299,11 +344,13 @@ a:active {
  #team_slogan{
   font-size: 180%;
   padding: 25px 5px 25px 5px;
+  color: #F16B6F;
  }
 
   #work_slogan{
   font-size: 180%;
   padding: 120px 5px 15px 5px;
+  color: #F16B6F;
  }
 
 .underline{
@@ -315,6 +362,7 @@ a:active {
  .para{
   font-size: 120%;
   padding: 15px 5px 15px 5px;
+  color: #7C7877;
  }
 
  .work_para{
@@ -322,6 +370,7 @@ a:active {
   max-width: 600px;
   margin: 0 auto;
   padding: 15px 5px 15px 5px;
+  color: #7C7877;
 
  }
 
@@ -334,6 +383,7 @@ a:active {
  .info{
   font-size: 110%;
   margin-bottom: 15px;
+  color: #7C7877;
  }
 
  .contact_header{
@@ -354,6 +404,7 @@ a:active {
   font-size: 24px;
   display: block;
   margin: 0 auto;
+  color: #7C7877;
 }
 
 .text_area{
@@ -362,6 +413,7 @@ a:active {
   font-size: 24px;
   margin: 0 auto;
   display: block;
+  color: #7C7877;
 }
 
 .submit_btn{
@@ -373,6 +425,7 @@ a:active {
   background-color: white;
   border-radius: 5px 5px 5px 5px;
   box-shadow: 0px 5px 5px 0px grey;
+  color: #7C7877;
 }
 
  /*Media Queries*/
@@ -465,6 +518,14 @@ nav a{
   margin: 0 2% 17% 0 !important;
   padding: 5px 5px 5px 5px !important;
  }
+
+ .advertise_btn{
+  width: 20% !important;
+  height: 30px !important;
+  font-size: 80% !important;
+  padding: 5px 5px 5px 5px !important;
+  margin: 10px 65px 0 10px !important;
+}
 
  .col_4{
     width: 100% !important;
