@@ -192,6 +192,13 @@ a:active {
   margin: 7% .5% 7% .5%;
  }
 
+ .main_home{
+  background-color: #d6ecfa;
+  text-align: center;
+  height: 500px;
+  width: 100%;
+ }
+
  .main_title{
   font-size: 450%;
   color: #F16B6F;
@@ -351,7 +358,7 @@ a:active {
 
  #team_slogan{
   font-size: 180%;
-  padding: 25px 5px 25px 5px;
+  padding: 25px 5px 5px 5px;
   color: #F16B6F;
  }
 
@@ -394,15 +401,15 @@ a:active {
   color: #7C7877;
  }
 
- .contact_header{
-  font-size: 5em;
+ #contact_header{
+  font-size: 2em;
   text-align: center;
-  padding: 20% 0  20% 0;
-  color: white;
+  color: #7C7877;
+  padding: 5px 0 55px 0;
 }
 
 .form_div{
-  height: 200px;
+  height: 280px;
   margin: 5% 0 10% 0;
 }
 
@@ -425,7 +432,7 @@ a:active {
 }
 
 .submit_btn{
-  width: 10%;
+  width: 20%;
   height: 30px;
   display: block;
   margin: 0 auto;
@@ -434,6 +441,19 @@ a:active {
   border-radius: 5px 5px 5px 5px;
   box-shadow: 0px 5px 5px 0px grey;
   color: #7C7877;
+}
+
+#thanks_header{
+  color: #F16B6F;
+  font-size: 240%;
+  padding-top: 220px;
+}
+
+
+#thanks_para{
+  color: #7C7877;
+  font-size: 120%;
+  padding-top: 15px;
 }
 
  /*Media Queries*/
@@ -519,6 +539,11 @@ a:active {
   padding-right: 20px !important;
   font-size: 100% !important;
  }
+
+ .main_home{
+  width: 100% !important;
+  height: 570px !important
+ }
 }
 
 @media all and (max-width:890px){
@@ -526,6 +551,17 @@ a:active {
   width: 70% !important;
   font-size: 120% !important;
   padding: 10px 0 10px 30px !important;
+}
+
+#thanks_header{
+  font-size: 200% !important;
+  padding-top: 220px !important;
+}
+
+
+#thanks_para{
+  font-size: 100% !important;
+  padding-top: 15px !important;
 }
 }
 
@@ -587,7 +623,7 @@ nav a{
  }
 
  .form_div{
-  height: 250px !important;
+  height: 350px !important;
   margin: 10% 0 10% 0 !important;
 }
 
@@ -600,7 +636,7 @@ nav a{
 }
 
 .submit_btn{
-  width: 20% !important;
+  width: 25% !important;
   height: 30px !important;
   font-size: 16px !important
 }
@@ -628,6 +664,17 @@ nav a{
   display: block;
   float: none;
 }
+
+ #thanks_header{
+  font-size: 160% !important;
+  padding-top: 220px !important;
+}
+
+
+#thanks_para{
+  font-size: 100% !important;
+  padding-top: 15px !important;
+}
 }
 
 @media all and (max-width:580px){
@@ -650,7 +697,7 @@ nav a{
 @media all and (max-width:500px){
 .form_div{
   margin: 23% 0 8% 0 !important;
-  height: 280px !important; 
+  height: 420px !important; 
 }
 
 .input_box{
@@ -671,7 +718,7 @@ nav a{
 }
 
 .submit_btn{
-  width: 20% !important;
+  width: 30% !important;
   font-size: 14px !important;
 }
 }

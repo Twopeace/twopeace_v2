@@ -4,20 +4,28 @@
       <h1 id='crew_title'> CONTACT US </h1>
     </div>
   </div>
-  
+
   <div class="form_div">
-    <input class="input_box" placeholder="Full Name" type="text">
-    <br/>
-    <input class="input_box" placeholder="Telephone" type="tel">
-    <br/>
-    <input class="input_box" placeholder="Email" type="email">
-    <br/>
-    <textarea class="text_area" placeholder="Message"></textarea>
-    <br/>
-    <button class="submit_btn" type="submit">Submit</button>
+    <p id="contact_header">Want An Instant Quote? Contact Us Now!</p>
+    <%= form_for @contact do |f| %>
+      <%= f.text_field :name, :class => "input_box", :placeholder => "Name*", required: true %>
+      <br/>
+      <%= f.email_field :email, :class => "input_box", :placeholder => "Email*", required: true %>
+      <br/>
+      <%= f.text_field :phone_number, :class => "input_box", :placeholder => "123-345-6789*", required: true %>
+      <br/>
+      <%= f.text_area :message, :class => "text_area", :placeholder => "Leave Us a Message!", as: :text %>
+      <br/>
+      <div class="hidden">
+        <%= f.label :nickname, :class => "input_box" %><br>
+        <%= f.text_field :nickname, :class => "input_box", hint: 'leave this field blank' %>
+      </div> 
+
+      <%= f.submit 'Send Message', class: "submit_btn" %>
+    <% end %>
   </div>
 </div>
 
 
-
+        
      
